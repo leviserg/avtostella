@@ -1,0 +1,313 @@
+body{
+	/* background:#EAEAEA; */
+	background:url(bg-light-4868.png);
+}
+.scrollup{
+	 width:40px;
+	 height:40px;
+	 opacity:0.3;
+	 position:fixed;
+	 bottom:10%;
+	 right:5%;
+	 display:none;
+	 text-indent:-9999px;
+	 background: url('icon_top.png') no-repeat;
+}
+.logo{
+    position: fixed;
+    bottom: 1%;
+    left: 0.5%;
+    width:109px;
+    height:41px;
+    opacity:0.3;
+/*    display:none; */
+    text-indent:-9999px;
+    background: url('csclogo.png') no-repeat;*/
+}
+.navli
+{
+	padding:5px;
+}
+.navli a
+{
+	color:white;
+}
+.theader
+{
+	text-align: center;
+	font-size: 16px;
+}
+.hdata
+{
+	text-align: center;
+}
+.hdata:hover{
+	font-weight:bolder;
+	cursor:pointer;
+}
+.hcol
+{
+	padding-left: 5px;
+	width:100px;
+	background: lightgrey;
+	font-size: 16px;
+}
+.headlink{
+	text-align:center;
+	padding:10px;
+}
+
+.headlink:hover{
+	font-weight:bold;
+	cursor:pointer;
+	color:#191952;
+}
+.shdata
+{
+	text-align: center;
+/*	opacity:1.0; */
+}
+.shdata:hover{
+/*	opacity: 1.0; */
+/*	border:3px solid black; */
+	font-weight: bolder;
+	cursor:pointer;
+}
+
+.t1{
+	opacity: 0;
+    transform: translateX(-100px);/* translateY(100px);*/
+}
+
+.t0{
+	opacity: 0;
+    transform: translateX(100px);/* translateY(-100px);*/
+}
+
+.anim{
+	opacity: 1.0;
+    transform: translateX(0);/* translateY(0);*/
+    transition: all 1s ease;
+}
+.wdata{
+	text-align: center;
+	border:2px solid grey;
+	border-radius: 5px;
+	width:100%;
+	position:relative;
+	left:0%;
+	z-index: 2;
+}
+.maxdata{
+	text-align: center;
+	border:1px solid grey;
+	width:50%;
+	margin:2px;
+	position:relative;
+	left:25%;
+	border-radius: 6px;
+	z-index: 2;
+}
+
+.line {
+	position: absolute;
+	background-color: #000000;
+	z-index: 1;
+	top: 46px;
+	left: 66%;
+	width: 1px;
+}
+.myhead{
+	width:100px;
+	text-align:center;
+	margin:5px 10px 5px 10px;
+	background:#383C3F;
+	color:white;
+	border:none;
+}
+.headlabel{
+	margin:5px 20px 5px 20px;
+	color:white;
+}
+.myhead:hover{
+	width:100px;
+	margin:5px 10px 5px 10px;
+	background:#EAEAEA;
+	color:black;
+	border:none;
+}
+.navbar-brand{
+	width:30%;
+}
+.inplim{
+	width:10%;
+	margin:0px 10px 0px 10px;;
+	text-align: center;
+}
+/* <trend view>*/
+#modid {
+	style=width:900px;
+}
+.mylim{
+	text-align: left;
+}
+/* -------------- login page -----------------*/
+.parent{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	overflow: auto;
+}
+.error{
+	width:95%;
+	margin:0px auto;
+	padding-top: 10px;
+	border: 1px solid #a94442;
+	color: #a94442;
+	background:#f2dede;
+	border-radius:5px;
+	text-align:center;
+	font-size: 14px;
+}
+.silcorp{
+	font-family: Century Gothic;
+	font-size:14px;
+	text-align: center;
+	padding:2px;
+	margin:3px;
+	width:100%;
+	background:#A0A0A0;
+	border: 1px solid #5E5E5E;
+	border-radius:2px;
+	box-shadow:5px 10px 20px rgba(0,0,0,0.7); /*, -5px -10px 20px rgba(255,255,255,0.8); */
+}
+.silcorp:hover{
+	cursor:pointer;
+	border: 3px solid #191952;
+/*	background:#191952;*/
+/*	box-shadow:none; */
+	box-shadow:7px 15px 30px rgba(25,25,82,0.8); /*, -10px -20px 40px rgba(255,255,255,0.8); */
+}
+
+.sil_cell{
+	padding:0px;
+	font-size:10px;
+	font-weight: normal;
+	text-align:center;
+}
+
+.maxtable{
+	background:grey;
+	padding:4px;
+	box-shadow:5px 10px 20px rgba(0,0,0,0.8);
+}
+
+.smtable{
+	background:grey;
+	padding:4px;
+	box-shadow:2px 5px 10px rgba(0,0,0,0.5);
+}
+
+/* --------------------------------------------*/
+/* </trend view>*/
+@media all and (max-width: 400px) {
+	#ptitle{
+			font-size:14px;
+			font-family:verdana,helvetica,arial,sans-serif;
+	}
+	.theader
+	{
+		font-size:8px;
+		font-weight: normal;
+		font-family:arial;
+	}
+	.headlink{
+		font-size:16px;
+		font-weight: normal;
+		font-family:arial;
+	}
+
+	.headlink:hover{
+		font-weight:bold;
+		color:#191952;
+	}
+	.hdata
+	{
+		font-size:10px;
+		font-family:arial;
+	}
+	.shdata
+	{
+		font-size:10px;
+		font-family:arial;
+	}
+	.maxdata
+	{
+		font-size:10px;
+		font-family:arial;
+		border-radius: 1px;
+		margin:1px;
+		width:80%;
+		left:1%;
+	}
+	.shdata:hover{
+		opacity: 1.0;
+	}
+	.hcol
+	{
+		font-size:8px;
+		font-weight: bold;
+		font-family:arial;
+		padding-left: 0px;
+	}
+	.myhead{
+		padding:5px;
+		font-size:14px;
+		text-align: center;
+		width:100%;
+		height:100%;
+		margin:5px;
+		border:none;
+	}
+	.myhead:hover{
+		padding:5px;
+		font-size:14px;
+		width:100%;
+		height:100%;
+		text-align: center;
+		margin:5px;
+		background:#EAEAEA;
+		color:black;
+		border:none;
+	}
+	.headlabel{
+		font-size:14px;
+		text-align: center;
+	}
+	#modid {
+		style=width:390px;
+	}
+	.inplim{
+		width:30%;
+		margin:0px 10px 0px 10px;;
+		text-align: center;
+	}
+	.limlabel{
+		font-size:10px;
+	}
+	.mylim{
+		margin-top:45px;
+	}
+	.silcorp{
+		font-size:10px;
+		padding:2px;
+		margin:3px;
+		width:100%;
+	}
+}

@@ -1,0 +1,42 @@
+.asc{
+	background:url(images/sort_asc_disabled.png);
+	display:inline-block;
+	width:19px;
+	height:19px;
+}
+
+.asc:hover {
+	background:url(images/sort_asc.png);
+}
+
+.desc{
+	background:url(images/sort_desc_disabled.png);
+	display:inline-block;
+	width:19px;
+	height:19px;
+}
+
+.desc:hover {
+	background:url(images/sort_desc.png);
+}
+
+.lim {
+	width:50px;
+	margin-right:10px;
+}
+
+.btn-rst {
+	padding:0.25rem;
+}
+
+.dynamic:hover{
+	cursor: pointer;
+}
+
+.child{
+	display: none;
+}
+
+.child-dynamic:hover{
+	cursor: pointer;
+}

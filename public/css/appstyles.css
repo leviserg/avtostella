@@ -1,0 +1,212 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+	/* background:#EAEAEA; */
+	background:url(bg-light-4868.png);
+}
+.scrollup{
+	 width:40px;
+	 height:40px;
+	 opacity:0.3;
+	 position:fixed;
+	 bottom:10%;
+	 right:5%;
+	 display:none;
+	 text-indent:-9999px;
+	 background: url('icon_top.png') no-repeat;
+}
+.logo{
+    position: fixed;
+    bottom: 35px;
+    right: 0.2%;
+    width:87px;
+    height:33px;
+    opacity:0.3;
+/*    display:none; */
+    text-indent:-9999px;
+    background: url('csclogo.png') no-repeat;
+}
+
+.almstrip{
+    position: fixed;
+    bottom:1px;
+    padding:1px 1px 1px 70px;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    font-size: 14px;
+    color:white;
+    height:22px;
+}
+.almstrip span:hover{
+    text-shadow:5px 10px 20px rgba(25,25,82,0.8);
+    cursor: pointer;
+}
+.chartdiv{
+    height:260px;
+}
+/* -------------- login page -----------------*/
+.parent{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	overflow: auto;
+}
+.error{
+	width:95%;
+	margin:0px auto;
+	padding-top: 10px;
+	border: 1px solid #a94442;
+	color: #a94442;
+	background:#f2dede;
+	border-radius:5px;
+	text-align:center;
+	font-size: 14px;
+}
+input:required {
+    box-shadow:none;
+}
+input:invalid {
+    box-shadow:0 0 3px red;
+}
+.table th.fit {
+    white-space: nowrap;
+    width: 3%;
+    /*width: 1%;*/
+}
+.table th.fit-wide {
+    white-space: nowrap;
+    width: 8%;
+}
+
+/* The container */
+.checkcontainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    /*font-size: 22px;*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default radio button */
+  .checkcontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  .checkcontainer:hover {
+    color: #17A2B8;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .checkcontainer:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .checkcontainer input:checked ~ .checkmark {
+    background-color: #17A2B8;
+  }
+
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the indicator (dot/circle) when checked */
+  .checkcontainer input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the indicator (dot/circle) */
+  .checkcontainer .checkmark:after {
+      top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+
+  .colind{
+      width:12px;
+      height: 12px;
+  }
+
+    table.table-bordered > tbody > tr > td{
+        border:1px solid #a5a5a5;
+    }
+
+    table.table-bordered > tbody > tr > th{
+        border:1px solid #a5a5a5;
+    }
+
+    .t1{
+        opacity: 0;
+        transform: translateX(-100px);/* translateY(100px);*/
+    }
+
+    .t0{
+        opacity: 0;
+        transform: translateX(100px);/* translateY(-100px);*/
+    }
+
+    .anim{
+        opacity: 1.0;
+        transform: translateX(0);/* translateY(0);*/
+        transition: all 2s ease;
+    }
+
+    .chartdiv{
+        height: 225px;
+    }
+
+    .stellapos{
+        height:46px;
+        width:140px;
+        position: relative;
+        display: block;
+    }
+
+    .lines{
+        display: block;
+        width: 20px;
+        height: 20px;
+        font-size: 11px;
+        line-height: 0.2;
+        font-family: Tahoma, sans-serif;
+        font-weight: bold;
+    }
+
+    @media all and (max-width: 400px) {
+        table > tbody > tr > td{
+            font-size:5px;
+        }
+    }
